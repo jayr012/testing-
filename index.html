@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Resume Website</title>
+  
+</head>
+<body>
+  <header>
+    <h1>Resume Website</h1>
+    <p>Three Aspiring Professionals</p>
+  </header>
+
+  <nav>
+    <a onclick="showSection('home')">Home</a>
+    <a onclick="showSection('jayr')">Jay-r Hernane</a>
+    <a onclick="showSection('jason')">Jason Malana</a>
+    <a onclick="showSection('justine')">Justine Abad</a>
+  </nav>
+
+  <!-- Home -->
+  <section id="home">
+    <h2>Welcome!</h2>
+    <p>Explore the resumes of three aspiring professionals. Click their name to view details.</p>
+    <div class="profiles">
+      <div class="profile-card">
+        <img src="https://i.ibb.co/fdT9bWrY/583f214b-c5a2-40d6-a430-497642f902c4.jpg" alt="Jay-r">
+        <h3><a onclick="showSection('jayr')">Jay-r Hernane</a></h3>
+        <p>Aspiring Web Developer passionate about creating dynamic websites.</p>
+      </div>
+      <div class="profile-card">
+        <img src="https://i.ibb.co/kFBPpsx/7200bd4f-cd79-4391-ad80-b89b5816b89b.jpg" alt="Jason">
+        <h3><a onclick="showSection('jason')">Jason Malana</a></h3>
+        <p>Creative Graphic Designer with a flair for digital storytelling.</p>
+      </div>
+      <div class="profile-card">
+        <img src="https://i.ibb.co/7JYrcjK9/d6bb6ad3-05d9-4d8b-b96f-fcb1dbf54a42.jpg" alt="Justine">
+        <h3><a onclick="showSection('justine')">Justine Abad</a></h3>
+        <p>Detail-oriented Data Analyst who loves turning data into insights.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Jay-r -->
+  <section id="jayr" class="resume-section">
+    <h2>Jay-r Hernane</h2>
+    <img src="https://i.ibb.co/fdT9bWrY/583f214b-c5a2-40d6-a430-497642f902c4.jpg" alt="Jay-r">
+    <h3>About Me</h3>
+    <p>I am Jay-r Hernane, a dedicated and aspiring web developer with a love for clean code and responsive design.</p>
+    <h3>Education</h3>
+    <ul>
+      <li> San Isidro Labrador Elementary School </li>
+      <li> Southville 8B National High School </li>
+      <li> Southville 8B Senior High School </li>
+    </ul>
+    <h3>Skills</h3>
+    <ul>
+      <li>HTML & CSS</li>
+      <li>JavaScript</li>
+      <li>React</li>
+      <li>Git & GitHub</li>
+      <li>Responsive Design</li>
+    </ul>
+    <h3>Contact</h3>
+    <p>Email: jayrhernane111@gmail.com</p>
+    <p>Phone: 09285355323</p>
+    <p><a href="https://www.instagram.com/ig.jayrhernane?igsh=MWJlaW44cDh1cWFkNg==">Instagram</a> | <a href="https://www.facebook.com/junuun.hernane">Facebook</a></p>
+  </section>
+
+  <!-- Jason -->
+  <section id="jason" class="resume-section">
+    <h2>Jason Malana</h2>
+    <img src="https://i.ibb.co/kFBPpsx/7200bd4f-cd79-4391-ad80-b89b5816b89b.jpg" alt="Jason">
+    <h3>About Me</h3>
+    <p>Hi! I'm Jason Malana, a passionate graphic designer who thrives in visual creativity and storytelling.</p>
+    <h3>Education</h3>
+    <ul>
+      <li> Balatucan Elementary School </li>
+      <li> San Isidro Alternative Learning System </li>
+    </ul>
+    <h3>Skills</h3>
+    <ul>
+      <li>Adobe Photoshop</li>
+      <li>Illustrator</li>
+      <li>UI/UX Design</li>
+      <li>Branding</li>
+      <li>Creative Thinking</li>
+    </ul>
+    <h3>Contact</h3>
+    <p>Email: jasonmalana21@gmail.com</p>
+    <p>Phone: 09630201441 </p>
+    <p><a href="https://www.facebook.com/jason.malana.142">Facebook</a>
+  </section>
+
+  <!-- Justine -->
+  <section id="justine" class="resume-section">
+    <h2>Justine Abad</h2>
+    <img src="https://i.ibb.co/7JYrcjK9/d6bb6ad3-05d9-4d8b-b96f-fcb1dbf54a42.jpg" alt="Justine">
+    <h3>About Me</h3>
+    <p>I'm Justine Abad, a data analyst with a love for numbers and meaningful insights that drive decisions.</p>
+    <h3>Education</h3>
+    <ul>
+      <li> Tagumpay Elementary School </li>
+      <li> Tagumpay National High School </li>
+      <li> Asian Institute oF Computer Studies </li>
+    </ul>
+    <h3>Skills</h3>
+    <ul>
+      <li>Python</li>
+      <li>SQL</li>
+      <li>Excel & Power BI</li>
+      <li>Data Visualization</li>
+      <li>Critical Thinking</li>
+    </ul>
+    <h3>Contact</h3>
+    <p>Email: justineabad016@gmail.com</p>
+    <p>Phone: 09123456789</p>
+    <p><a href="https://www.facebook.com/MeliciaTheGoat">Facebook</a>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Resume Website | BSIT 2B. All rights reserved.</p>
+  </footer>
+
+  <script>
+    function showSection(sectionId) {
+      document.querySelectorAll("section").forEach(sec => sec.style.display = "none");
+      document.getElementById(sectionId).style.display = "block";
+      window.scrollTo(0, 0); // scroll back to top
+    }
+  </script>
+</body>
+</html>
