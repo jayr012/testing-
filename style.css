@@ -1,143 +1,93 @@
-/* General Styles */
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: #4F5D70;
-  color: white;
-}
-
-header {
-  background-color: #2C3E50;
-  color: white;
-  text-align: center;
-  padding: 30px 0;
-}
-
-h1, h2, h3 {
-  margin: 0;
-  padding: 0;
-}
-
-a {
-  color: #fff;
-  text-decoration: none;
-}
-
-footer {
-  background-color: #2C3E50;
-  color: white;
-  text-align: center;
-  padding: 15px 0;
-  margin-top: 40px;
-}
-
-/* Links */
-a:hover {
-  text-decoration: underline;
-}
-
-/* Navigation Bar */
-nav {
-  background-color: #34495E;
-  text-align: center;
-  padding: 15px 0;
-}
-
-nav a {
-  margin: 0 20px;
-  color: white;
-  font-weight: bold;
-  cursor: pointer;
-}
-
-/* Profile List */
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-ul li {
-  margin-bottom: 10px;
-}
-
-ul li a {
-  text-decoration: none;
-  color: #ecf0f1;
-  font-size: 18px;
-}
-
-/* Section Styling */
-section {
-  padding: 40px 20px;
-  max-width: 900px;
-  margin: auto;
-  display: none;
-}
-
-/* Profile Cards (for index.html) */
-.profiles {
-  display: flex;
-  justify-content: center;
-  gap: 40px;
-  flex-wrap: wrap;
-}
-
-.profile-card {
-  cursor: pointer;
-  width: 250px;
-  border: 1px solid #ccc;
-  border-radius: 8px;
-  background: #34495E;
-  color: #fff;
-  padding: 20px;
-  transition: transform 0.3s ease;
-  text-align: center;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.profile-card:hover {
-  transform: scale(1.05);
-}
-
-.profile-card img {
-  width: 100%;
-  border-radius: 8px;
-  object-fit: cover;
-}
-
-/* Resume Section Styles */
-.resume-section {
-  background-color: #34495E;
-  border-radius: 8px;
-  padding: 30px;
-  margin-bottom: 50px;
-  text-align: left;
-}
-
-.resume-section img {
-  display: block;
-  margin: 20px auto;
-  width: 200px;
-  border-radius: 50%;
-}
-
-.resume-section ul {
-  list-style: none;
-  padding: 0;
-}
-
-.resume-section ul li {
-  margin: 5px 0;
-}
-
-.resume-section h3 {
-  margin-top: 20px;
-  font-size: 1.5em;
-  color: #ecf0f1;
-}
-
-/* Footer */
-footer p {
-  font-size: 0.9em;
-}
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-image: url('https://i.ibb.co/W4gZNnKR/Picsart-25-09-14-22-46-01-242.jpg');
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      background-attachment: fixed;
+      color: white;
+    }
+    header {
+      background-color: #2C3E50;
+      color: white;
+      text-align: center;
+      padding: 30px 0;
+    }
+    nav {
+      background-color: #34495E;
+      text-align: center;
+      padding: 15px 0;
+    }
+    nav a {
+      margin: 0 20px;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+      display: none;
+    }
+    #home {
+      display: block;
+    }
+    .profiles {
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+      flex-wrap: wrap;
+    }
+    .profile-card {
+      cursor: pointer;
+      width: 250px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      background: #34495E;
+      color: #fff;
+      padding: 20px;
+      transition: transform 0.3s ease;
+      text-align: center;
+    }
+    .profile-card:hover {
+      transform: scale(1.05);
+    }
+    .profile-card img {
+      width: 100%;
+      border-radius: 8px;
+    }
+    .resume-section {
+      background-color: #4F5D70;
+      border-radius: 8px;
+      padding: 30px;
+      margin-bottom: 50px;
+      text-align: left;
+    }
+    .resume-section img {
+      display: block;
+      margin: 20px auto;
+      width: 200px;
+      border-radius: 50%;
+    }
+    .resume-section ul {
+      list-style: none;
+      padding: 0;
+    }
+    .resume-section ul li {
+      margin: 5px 0;
+    }
+    footer {
+      background-color: #2C3E50;
+      color: white;
+      text-align: center;
+      padding: 15px 0;
+      margin-top: 40px;
+    }
+    a {
+      color: #fff;
+      cursor: pointer;
+    }
