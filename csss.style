@@ -1,0 +1,91 @@
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #4F5D70;
+      color: white;
+    }
+    header {
+      background-color: #2C3E50;
+      color: white;
+      text-align: center;
+      padding: 30px 0;
+    }
+    nav {
+      background-color: #34495E;
+      text-align: center;
+      padding: 15px 0;
+    }
+    nav a {
+      margin: 0 20px;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+      display: none;
+    }
+    #home {
+      display: block;
+    }
+    .profiles {
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+      flex-wrap: wrap;
+    }
+    .profile-card {
+      cursor: pointer;
+      width: 250px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      background: #34495E;
+      color: #fff;
+      padding: 20px;
+      transition: transform 0.3s ease;
+      text-align: center;
+    }
+    .profile-card:hover {
+      transform: scale(1.05);
+    }
+    .profile-card img {
+      width: 100%;
+      border-radius: 8px;
+    }
+    .resume-section {
+      background-color: #4F5D70;
+      border-radius: 8px;
+      padding: 30px;
+      margin-bottom: 50px;
+      text-align: left;
+    }
+    .resume-section img {
+      display: block;
+      margin: 20px auto;
+      width: 200px;
+      border-radius: 50%;
+    }
+    .resume-section ul {
+      list-style: none;
+      padding: 0;
+    }
+    .resume-section ul li {
+      margin: 5px 0;
+    }
+    footer {
+      background-color: #2C3E50;
+      color: white;
+      text-align: center;
+      padding: 15px 0;
+      margin-top: 40px;
+    }
+    a {
+      color: #fff;
+      cursor: pointer;
+    }
+  </style>
