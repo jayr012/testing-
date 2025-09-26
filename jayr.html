@@ -3,46 +3,30 @@
 <head>
   <meta charset="UTF-8">
   <title>Jay-r Hernane - Resume</title>
-  <style>
-    nav {
-      background-color: #f0f0f0;
-      padding: 10px;
-      text-align: center;
-    }
-    nav button {
-      margin: 5px;
-      padding: 8px 16px;
-      font-size: 16px;
-      cursor: pointer;
-    }
-    section {
-      display: none;
-      padding: 20px;
-    }
-    section.active {
-      display: block;
-    }
-  </style>
 </head>
 <body>
 
   <a href="index.html">Back Home</a>
 
-  <!-- Navigation -->
+  <!-- Simple Navigation -->
   <nav>
-    <button onclick="showSection('about')">About Me</button>
-    <button onclick="showSection('education')">Education</button>
-    <button onclick="showSection('skills')">Skills</button>
-    <button onclick="showSection('contact')">Contact</button>
+    <a href="#about">About Me</a> |
+    <a href="#education">Education</a> |
+    <a href="#skills">Skills</a> |
+    <a href="#contact">Contact</a>
   </nav>
 
+  <hr>
+
   <!-- Sections -->
-  <section id="about" class="active">
+  <section id="about">
     <h2>Jay-r Hernane</h2>
-    <img src="https://i.ibb.co/Y7W4b12t/d4eb3f3f-c7e4-4de4-802e-7f5b14a143fa.jpg" width="210" height="210">
+    <img src="https://i.ibb.co/Y7W4b12t/d4eb3f3f-c7e4-4de4-802e-7f5b14a143fa.jpg" width="210" height="210" alt="Jay-r Hernane">
     <h3>About Me</h3>
     <p>I am Jay-r Hernane, a dedicated and aspiring web developer with a love for clean code and responsive design.</p>
   </section>
+
+  <hr>
 
   <section id="education">
     <h3>Education</h3>
@@ -52,6 +36,8 @@
       <li>Southville 8B Senior High School</li>
     </ul>
   </section>
+
+  <hr>
 
   <section id="skills">
     <h3>Skills</h3>
@@ -64,29 +50,23 @@
     </ul>
   </section>
 
+  <hr>
+
   <section id="contact">
     <h3>Contact</h3>
-    <p><b>Email:</b> jayrhernane111@gmail.com</p>
-    <p><b>Phone:</b> 09285355323</p>
+    <p><strong>Email:</strong> jayrhernane111@gmail.com</p>
+    <p><strong>Phone:</strong> 09285355323</p>
     <p>
-      <a href="https://www.instagram.com/ig.jayrhernane?igsh=MWJlaW44cDh1cWFkNg==">Instagram</a> | 
+      <a href="https://www.instagram.com/ig.jayrhernane?igsh=MWJlaW44cDh1cWFkNg==">Instagram</a> |
       <a href="https://www.facebook.com/junuun.hernane">Facebook</a>
     </p>
   </section>
 
+  <hr>
+
   <footer>
-    <hr>
     <p>&copy; 2025 Resume Website | BSIT 2B. All rights reserved.</p>
   </footer>
 
-  <script>
-    function showSection(sectionId) {
-      document.querySelectorAll("section").forEach(sec => {
-        sec.classList.remove("active");
-      });
-      document.getElementById(sectionId).classList.add("active");
-      window.scrollTo(0, 0);
-    }
-  </script>
 </body>
 </html>
