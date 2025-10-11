@@ -7,7 +7,7 @@
     }
     header {
       background-color: #2C3E50;
-      color: white;
+      color: #FFFFFF;
       text-align: center;
       padding: 30px 0;
     }
@@ -18,7 +18,7 @@
     }
     nav a {
       margin: 0 20px;
-      color: white;
+      color: #FFFFFF;
       text-decoration: none;
       font-weight: bold;
       cursor: pointer;
@@ -78,12 +78,12 @@
     }
     footer {
       background-color: #2C3E50;
-      color: white;
+      color: #FFFFFF;
       text-align: center;
       padding: 15px 0;
       margin-top: 40px;
     }
     a {
-      color: #fff;
+      color: #FFFFFF;
       cursor: pointer;
     }
