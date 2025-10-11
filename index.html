@@ -1,35 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  
-  <meta charset="UTF-8">
-  <title>Resume Website</title>
-  <link rel="stylesheet" href="style.css">
-
+    <meta charset="UTF-8">
+    <title>Resume Website</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
+<header>
     <h1>Resume Website</h1>
-    <p>Three Aspiring Professionals</p>
-  </header>
-  <hr>
-  <h2>Click their name for info</h2>
-<ul>
-  <li><a href="jayr.html">Jayr Hernane</a></li>
-  <li><a href="jason.html">Jason Malana</a></li>
-  <li><a href="justine.html">Justine Abad</a></li>
-</ul>
-<hr>
-  <footer>
-    <p>&copy; 2025 Resume Website | BSIT 2B. All rights reserved.</p>
-  </footer>
+    <p>Three Aspiring Professional</p>
+</header>
 
-  <script>
-    function showSection(sectionId) {
-      document.querySelectorAll("section").forEach(sec => sec.style.display = "none");
-      document.getElementById(sectionId).style.display = "block";
-      window.scrollTo(0, 0); // scroll back to top
-    }
-  </script>
+<nav>
+    <a href="index.html">Home</a>
+    <a href="jayr.html">Jay-r Hernane</a>
+    <a href="jason.html">Jason Malana</a>
+    <a href="justine.html">Justine Abad</a>
+</nav>
+
+<section class="intro">
+    <h2>Welcome!</h2>
+    <p>Explore the resumes of three aspiring professionals. Click on each to learn more about them.</p>
+</section>
+
+<section class="profiles">
+    <div class="profile-card" onclick="window.location.href='jayr.html'">
+    <img src="https://i.ibb.co/Y7W4b12t/d4eb3f3f-c7e4-4de4-802e-7f5b14a143fa.jpg" alt="Person 1">
+    <h3>Jay-r Hernane</h3>
+    <p>Aspiring Web Developer passionate about creating dynamic websites.</p>
+</div>
+    <div class="profile-card" onclick="window.location.href='jason.html'">
+    <img src="https://i.ibb.co/VpQv08sk/b4bbee37-fc17-45d5-9b6e-a4bc7a6787f4.jpg" alt="Person 2">
+    <h3>Jason Malana</h3>
+    <p>Creative Graphic Designer with a flair for digital storytelling.</p>
+</div>
+    <div class="profile-card" onclick="window.location.href='justine.html'">
+    <img src="https://i.ibb.co/wZYTdMGr/Picsart-25-09-26-21-24-40-654.jpg" alt="Person 3">
+    <h3>Justine Abad</h3>
+    <p>Detail-oriented Data Analyst who loves turning data into insights.</p>
+</div>
+</section>
+
+<footer>
+    <p>&copy; 2025 Resume Website | BSIT 2B. All rights reserved.</p>
+</footer>
 </body>
 </html>
